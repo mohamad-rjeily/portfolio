@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+<body >
+  <div class="mysectionColor">
+<div class="mySection">
+  <img class="img1" src="/img/profile.png" alt="Mohamad Rjeily profile photo">
+  <p class="intro">
+  <span class="gradient-text">MOHAMAD RJEILY ↳ <br>Precision meets imagination <br>I am a </span>
+  <span class="gradient-text" id="typing"></span><br>
+  <button class="mySectionButton" type="button">About Me</button>
+</p>
+</div>
+</div>  
+<div class="aboutmeColor">
+  <section  class="section">
+    
+    <h2>About Me</h2>
+  <p>
+    I'm Mohamad, a recent Computer Science graduate with a strong passion for building smart, efficient, and user-friendly software solutions. 
+    Throughout my university journey, I honed my skills in web development, algorithms, and software engineering through hands-on projects and academic research.
+  </p>
+  <p>
+    I'm driven by curiosity and problem-solving. Whether it's creating dynamic web applications, optimizing backend performance, or exploring new technologies, I thrive in environments that challenge me to grow.
+    I'm now eager to contribute my skills in a professional setting and continue learning as I move forward in my career.
+  </p>  </section>
+</div>
+<div class="projectsColor">
+  <section  class="section">
+    <h2>Projects</h2>
+    <ul>
+       <li>
+      <strong>Cake Store Website</strong> – A full-stack e-commerce platform for browsing and ordering cakes. Built with HTML, CSS, JavaScript, and PHP. Includes an admin dashboard for managing products and orders.
+    </li>
+    <li>
+      <strong>Pizza Shop Website</strong> – A dynamic online pizza ordering system with real-time menu updates. Backend powered by PHP, with an admin dashboard to manage inventory, prices, and user orders.
+    </li>
+  </ul>
+  </section>
+  </div>
+<div class="contactColor">
+  <section  class="section">
+  
+    <form class="contact-form">
+        <h2>Contact Me</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" >
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" >
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" ></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  
+  </section>
+  </div>
+  <div class="gallery-wrapper">
+  <button class="buttonGallery" id="prevBtn" aria-label="Previous image">⟨</button>
+
+  <div class="gallery-container" id="galleryContainer">
+    <img src="/img/image1.jpeg" alt="Gallery Image 1" class="gallery-image" />
+    <img src="/img/image2.jpeg" alt="Gallery Image 2" class="gallery-image" />
+    <img src="/img/image3.jpeg" alt="Gallery Image 3" class="gallery-image" />
+    <img src="/img/image4.jpeg" alt="Gallery Image 4" class="gallery-image" />
+    <img src="/img/image5.jpeg" alt="Gallery Image 5" class="gallery-image" />
+  </div>
+
+  <button class="buttonGallery" id="nextBtn" aria-label="Next image">⟩</button>
+</div>
+
+
+     <script src="index.js"></script>
+</body>
+</html>
