@@ -6,7 +6,7 @@ body {
 }
 
 .mysectionColor {
-  background-image: url('/img/background2.jpg');
+  background-image: url('img/background2.jpg');
   width: 100%;
   background-size: cover;        /* scales image to fill */
   background-position: center;   /* centers the image */
@@ -348,4 +348,9 @@ button:hover {
 
 .contact-form button:hover {
   background-color: #555;
+}
+
+/* ====== FIX FOR MOBILE HORIZONTAL OVERFLOW ====== */
+html, body {
+  overflow-x: hidden;
 }
